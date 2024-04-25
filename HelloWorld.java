@@ -1,5 +1,8 @@
+import java.util.Date;
+
 class HelloWorld{
     public static void main(String [] args){
-        System.out.println("Hellos Logos");
+    	Date tanggal = new Date();
+    	System.out.printf("Cetak Tanggal : %tA ", tanggal);
     }
 }
